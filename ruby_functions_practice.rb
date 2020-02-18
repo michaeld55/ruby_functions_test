@@ -70,8 +70,19 @@ def number_to_short_month_name( month_number )
   end
 end
 
-def volume_of_cube( length, width, hight )
+def volume_of_cube( length)
 
-  result = length * width * hight
-  return result 
+  result = length ** length
+  return result
+end
+
+def volume_of_sphere (radius)
+  result = ((3.1415 *( radius ** radius ))* 4/3)
+  return result
+end
+
+def fahrenheit_to_celsius
+
+  celsius_answer =
+
 end
