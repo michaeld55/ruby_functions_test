@@ -6,3 +6,13 @@ end
 def return_10
   return 10
 end
+
+def add( num1, num2 )
+  result = num1.to_i() + num2.to_i()
+  return result
+end
+
+def subtract( num1, num2 )
+  result = num1.to_i() - num2.to_i()
+  return result
+end
