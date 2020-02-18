@@ -25,3 +25,8 @@ def divide( num1, num2)
   result = num1.to_i() / num2.to_i()
   return result
 end
+
+def length_of_string(input)
+  result = input.length
+  return result
+end
