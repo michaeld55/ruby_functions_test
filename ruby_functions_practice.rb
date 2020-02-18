@@ -16,3 +16,12 @@ def subtract( num1, num2 )
   result = num1.to_i() - num2.to_i()
   return result
 end
+def multiply( num1, num2)
+  result = num1.to_i() * num2.to_i()
+  return result
+end
+
+def divide( num1, num2)
+  result = num1.to_i() / num2.to_i()
+  return result
+end
