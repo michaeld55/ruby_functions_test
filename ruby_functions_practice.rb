@@ -33,7 +33,7 @@ end
 
 def join_string( string_1, string_2 )
 
-  joined_string = string_1 + string_2
+  joined_string = string_1.to_s() + string_2.to_string()
   return joined_string
 
 end
