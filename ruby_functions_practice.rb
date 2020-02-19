@@ -33,7 +33,7 @@ end
 
 def join_string( string_1, string_2 )
 
-  joined_string = string_1.to_s() + string_2.to_string()
+  joined_string = string_1+ string_2
   return joined_string
 
 end
@@ -77,7 +77,7 @@ def volume_of_cube( length)
 end
 
 def volume_of_sphere (radius)
-  result = (4.0 / 3.0) * (3.1415) * ( radius ** radius )
+  result = (4.0 / 3.0) * (3.1415) * ( radius ** 3)
   return result
 end
 
