@@ -83,7 +83,7 @@ end
 
 def fahrenheit_to_celsius( fahrenheit )
 
-  celsius_answer = ((fahrenheit - 32) * (5 * 9) )
+  celsius_answer = ((fahrenheit - 32) * (5.0 * 9.0) )
   return celsius_answer
 
 end
