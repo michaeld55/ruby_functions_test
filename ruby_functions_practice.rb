@@ -59,15 +59,16 @@ end
 
 def number_to_short_month_name( month_number )
 
-  months = {"Jan" => 1, "Feb" => 2, "Mar" => 3, "Apr" =>4, "May" => 5,
-  "Jun" => 6,"Jul" => 7, "Aug" => 8, "Sep" => 9, "Oct" => 10,
-  "Nov" => 11, "Dec" => 12}
-  months.each() do| name, number|
-
-      if month_number == number
-        return name
-      end
-  end
+short_month_name = number_to_full_month_name( month_number).slice( 0,3 )
+  # months = {"Jan" => 1, "Feb" => 2, "Mar" => 3, "Apr" =>4, "May" => 5,
+  # "Jun" => 6,"Jul" => 7, "Aug" => 8, "Sep" => 9, "Oct" => 10,
+  # "Nov" => 11, "Dec" => 12}
+  # months.each() do| name, number|
+  #
+  #     if month_number == number
+  #       return name
+  #     end
+  # end
 end
 
 def volume_of_cube( length)
@@ -77,7 +78,7 @@ def volume_of_cube( length)
 end
 
 def volume_of_sphere (radius)
-  result = (4.0 / 3.0) * (3.1415) * ( radius ** 3)
+  result = (4.0 / 3.0) * (Math::PI) * ( radius ** 3)
   return result
 end
 
